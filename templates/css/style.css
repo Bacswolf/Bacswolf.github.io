@@ -1,0 +1,115 @@
+/* Estilos personalizados para los iconos */
+.mi-icono {
+    color: #918668;
+    /* Cambia el color a tu preferencia */
+    font-size: 2rem;
+    /* Ajusta el tamaño del icono */
+    /* Agrega otros estilos según sea necesario */
+}
+
+.mi-boton {
+    background-color: #685145;
+    /* Cambia el color de fondo a tu preferencia */
+    color: #C7D3CD;
+    /* Cambia el color del texto a tu preferencia */
+    font-size: 1.2rem;
+    border-color: #0F120F;
+}
+
+.custom-bg-color {
+    background-color: #3a4e42;
+    color: #C7D3CD;
+    /* Puedes cambiar el código de color según tu preferencia */
+}
+
+.custom-bg-color2 {
+    background-color: #405B49;
+    color: #C7D3CD;
+    /* Puedes cambiar el código de color según tu preferencia */
+}
+
+.progress-bar {
+    height: 13px;
+    /* Ajusta el grosor de la barra de progreso */
+    border-radius: 5px;
+    background-color: #918668;
+    font-size: .9rem;
+    /* Color de fondo de la barra de progreso cuando está incompleta */
+}
+
+.progress {
+    height: 13px;
+    /* Ajusta el grosor de la barra de progreso */
+    border-radius: 5px;
+    background-color: #C7D3CD;
+    /* Color de fondo de la barra de progreso cuando está incompleta */
+}
+
+.container-gradient {
+    background: linear-gradient(to bottom, #091409, #255231);
+    /* Cambia los colores según tus preferencias */
+    border-radius: 10px;
+    transition: background 0.5s ease;
+    /* Agrega una transición de 0.5 segundos para suavizar el cambio de color */
+}
+
+
+/* Agrega estilos personalizados para el footer si es necesario */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+}
+
+
+/* Estilo para el contenedor del gif */
+#gif-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    text-align: center;
+}
+
+/* Estilo para la imagen del gif */
+#gif-img {
+    max-width: 80%;
+    max-height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilo para el icono del ojo */
+.eye-icon {
+    color: #808080;
+    /* Gris */
+}
+
+.custom-nav-link {
+    background-color: #685145;
+    /* Cambia el color de fondo según tu preferencia */
+    color: #F4E6BA;
+    /* Cambia el color del texto a blanco o el que prefieras */
+}
+
+/* Agrega estilos para el botón activo si lo deseas */
+.custom-nav-link.active {
+    background-color: #F4E6BA !important;
+    /* Cambia el color de fondo del botón activo según tu preferencia */
+    color: #332822 !important;
+    /* Cambia el color del texto del botón activo a negro o el que prefieras */
+}
+
+
+.custom-nav-link:hover {
+    background-color: #68624F !important;
+    /* Cambia el color de fondo cuando se realiza el hover */
+    color: #332F25 !important;
+    /* Cambia el color del texto cuando se realiza el hover */
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/templates/css/style.css">
+    <title>Portafolio</title>
+</head>
+
+<body class="bg-dark text-white container-gradient">
+
+    <nav class="navbar  navbar-expand-lg navbar-dark sticky-top" style="background-color:#0b190b; min-height: 80px;">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">BacsWolf</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#report">Reportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-flex align-items-center  min-vh-100 " id="aboutMe">
+        <div class="row ">
+            <div class="col-lg-6 col-md-12 p-4 ">
+                <h2>Hola, soy</h2>
+                <h3><strong>Brandon Ali Camacho Sandoval</strong></h3>
+                <p>Analista de Datos.</p>
+                <p>Soy un Ingeniero en Computación con una sólida experiencia en programación en Java y Python, así como
+                    en el manejo de Git y bases de datos. Mi enfoque principal se centra en la programación en Python,
+                    el análisis de datos, la limpieza de datos y la creación de modelos de machine learning. <br>
+                    Mis habilidades técnicas se complementan con cualidades que me distinguen en el entorno laboral. Soy
+                    proactivo, permitiendome abordar desafíos de manera eficiente. Además, soy colaborativo y valoro el
+                    trabajo en equipo, contribuyendo positivamente a proyectos
+                    conjuntos. Mi enfoque autodidacta me impulsa a mantenerme actualizado en las últimas tendencias
+                    tecnológicas, y soy conocido por mi capacidad para adaptarme a entornos cambiantes. Mi creatividad
+                    se refleja en mi enfoque innovador para la resolución de problemas. Además, mi habilidad para
+                    comunicarme de manera efectiva y simplificar conceptos técnicos me permite trabajar de manera
+                    efectiva con colegas no técnicos.
+                </p>
+
+                <ul class="social-icons list-inline">
+                    <li class="list-inline-item"><a class="social-icon-link" href="https://linkedin.com/in/bacswolf"
+                            target="_blank"><i class="bi bi-linkedin mi-icono"></i></a></li>
+                    <li class="list-inline-item"><a class="social-icon-link mi-icono" href="https://github.com/Bacswolf"
+                            target="_blank"><i class="bi bi-github"></i></a></li>
+                    <li class="list-inline-item"><a class="social-icon-link mi-icono"
+                            href="https://twitter.com/bacswolf" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+
+                <a class="btn btn-light mi-boton" href="#" role="button">Download CV</a>
+            </div>
+            <div class="col-lg-6 justify-content-end col-md-12 p-4">
+                <img src="/img/selfie.jpg" alt=" Imagen falsa" class="img-fluid" style="max-width: 100%;">
+            </div>
+        </div>
+    </div>
+    <div id="gif-container">
+        <img id="gif-img" src="" alt="GIF">
+    </div>
+
+    <!-- Proyectos -->
+    <div class="container  vh-60 mb-5" id="project">
+        <h2 class="text-center mb-4">Mis Proyectos</h2>
+
+        <ul class="row list-unstyled d-flex justify-content-around m-2">
+            <!-- Proyecto 1 -->
+
+            <li class="card col-lg-4 col-md-5 custom-bg-color m-2" style="width: 25rem;">
+                <img src="/img/flask_tienda.png" alt="Proyecto 1 Imagen" class="card-img-top"
+                    data-gif-src="/img/flask_tienda_g.gif" onmouseover="mostrarGif(this)" onmouseout="ocultarGif()">
+                <div class="card-body">
+                    <h5 class="card-title">Backend con flask</h5>
+                    <p class="card-text">Proyecto de un sistema de gestión de productos desarrollado en Python con
+                        Flask y SQLAlchemy. Proporciona una interfaz web para visualizar, agregar, actualizar y eliminar
+                        productos de una base de datos.
+                    </p>
+                    <p class="card-text"><strong>Tecnologías:</strong> Python, Flask, SQLAlchemy</p>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://github.com/Bacswolf/tienda-backend-flask" class="btn mi-boton m-2"
+                            target="_blank"><i class="bi bi-github ms-1"></i></a>
+                        <!--<a href="tu_pagina_destino.html" class="btn mi-boton m-2" target="_blank"><i
+                                class="bi bi-eye-fill ms-1 "></i></a> -->
+                    </div>
+                </div>
+            </li>
+
+            <!-- Proyecto 2 -->
+            <li class="card col-lg-4 col-md-5 custom-bg-color m-2" style="width: 25rem;">
+                <img src="/img/Vegetales.png" alt="Proyecto 1 Imagen" class="card-img-top"
+                    data-gif-src="/img/G_vegetales.gif" onmouseover="mostrarGif(this)" onmouseout="ocultarGif()">
+                <div class="card-body">
+                    <h5 class="card-title">Reconocimiento de vegetales</h5>
+                    <p class="card-text">Reconocimiento de vegetales mediante la implementación de una red neuronal con
+                        uso de un modelo pre-entrenado (VGG16) y una base de datos de 15 clases de vegetales.</p>
+                    <p class="card-text"><strong>Tecnologías:</strong> Python, Flask, TensorFlow, VGG16</p>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://github.com/Bacswolf/reconociminto-vegetales-flask" class="btn mi-boton m-2"
+                            target="_blank"><i class="bi bi-github ms-1"></i></a>
+                        <!--<a href="tu_pagina_destino.html" class="btn mi-boton m-2" target="_blank"><i
+                                class="bi bi-eye-fill ms-1 "></i></a> -->
+                    </div>
+                </div>
+            </li>
+
+            <!-- Proyecto 3 -->
+            <li class="card col-lg-4 col-md-5 custom-bg-color m-2" style="width: 25rem;">
+                <img src="/img/reinas.png" alt="Proyecto 1 Imagen" class="card-img-top" data-gif-src="/img/P_reinas.gif"
+                    onmouseover="mostrarGif(this)" onmouseout="ocultarGif()">
+                <div class="card-body">
+                    <h5 class="card-title">Probrema de n reinas</h5>
+                    <p class="card-text">Algoritmo evolutivo para la resolución del problema de 8 reinas</p>
+                    <p class="card-text"><strong>Tecnologías:</strong> Java, POO</p>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://github.com/Bacswolf/Reinas8" class="btn mi-boton m-2" target="_blank"><i
+                                class="bi bi-github ms-1"></i></a>
+                        <!--<a href="tu_pagina_destino.html" class="btn mi-boton m-2" target="_blank"><i
+                                class="bi bi-eye-fill ms-1 "></i></a> -->
+                    </div>
+                </div>
+            </li>
+            <!-- Proyecto 4 -->
+            <li class="card col-lg-4 col-md-5 custom-bg-color m-2" style="width: 25rem;">
+                <img src="/img/kmeans.png" alt="Proyecto 1 Imagen" class="card-img-top" data-gif-src="/img/P_kmeans.gif"
+                    onmouseover="mostrarGif(this)" onmouseout="ocultarGif()">
+                <div class="card-body">
+                    <h5 class="card-title">Kmeans propio</h5>
+                    <p class="card-text">Recreacion de modelo de clustering kmeans para agrupacion de datos alatoria de
+                        forma optima</p>
+                    <p class="card-text"><strong>Tecnologías:</strong> java</p>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://github.com/Bacswolf/Kmeans" class="btn mi-boton m-2" target="_blank"><i
+                                class="bi bi-github ms-1"></i></a>
+                        <!--<a href="tu_pagina_destino.html" class="btn mi-boton m-2" target="_blank"><i
+                                class="bi bi-eye-fill ms-1 "></i></a> -->
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- muestra de reportes -->
+    <div class="container  text-center p-2 mt-5" id="report">
+        <h2 class="mb-4 mt-5 ">Reportes con datos publicos </h2>
+        <div class="d-flex align-items-start custom-bg-color p-4">
+
+            <div class="nav flex-column nav-pills  col-lg-1 " id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <button class="nav-link active custom-nav-link my-2" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                    aria-selected="true">Ventas de sucursales</button>
+                <button class="nav-link custom-nav-link my-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">Precios de transportes en
+                    mexico</button>
+
+                <button class="nav-link custom-nav-link my-2" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                    aria-selected="false">Crecimiento de escuelas
+                    en mexico</button>
+                <button class="nav-link custom-nav-link my-2" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                    aria-selected="false">ventas de
+                    australia</button>
+            </div>
+            <div class="tab-content col-lg-11 " id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab" tabindex="0"><iframe title="proy_1" width="1024" height="612"
+                        src="https://app.powerbi.com/view?r=eyJrIjoiM2Q2NWVlMjQtYTYzZi00OWRjLThiYWMtNzA2MTNkYTM4N2ZiIiwidCI6ImE5ZTE3ZjllLTkwYmUtNDFkMC04NGViLTZhNDhlYmU5ZmVjMCIsImMiOjR9"
+                        frameborder="0" allowFullScreen="true"></iframe></div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                    tabindex="0"><iframe title="proy_2" width="1024" height="612"
+                        src="https://app.powerbi.com/view?r=eyJrIjoiZDMwMjRmNzItZGRiMy00YjU5LWIwMDEtMTM4MTQ1YTY1OTdjIiwidCI6ImE5ZTE3ZjllLTkwYmUtNDFkMC04NGViLTZhNDhlYmU5ZmVjMCIsImMiOjR9"
+                        frameborder="0" allowFullScreen="true"></iframe></div>
+
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
+                    tabindex="0"><iframe title="Proyecto_escuelas" width="1024" height="612"
+                        src="https://app.powerbi.com/view?r=eyJrIjoiNTFhYjM2YjctMmM4ZS00NDM1LThhZmEtN2NmY2QxZDg3OWFhIiwidCI6ImE5ZTE3ZjllLTkwYmUtNDFkMC04NGViLTZhNDhlYmU5ZmVjMCIsImMiOjR9"
+                        frameborder="0" allowFullScreen="true"></iframe></div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"
+                    tabindex="0"><iframe title="proy_ventas_australia" width="1024" height="612"
+                        src="https://app.powerbi.com/view?r=eyJrIjoiNGRjNjczMDUtODc0ZS00MDdjLWJhN2UtM2VkYzg4MDM4MjE1IiwidCI6ImE5ZTE3ZjllLTkwYmUtNDFkMC04NGViLTZhNDhlYmU5ZmVjMCIsImMiOjR9"
+                        frameborder="0" allowFullScreen="true"></iframe>s</div>
+            </div>
+        </div>
+    </div>
+    <!-- Habilidades -->
+    <div class="container  text-center py-5" id="skills">
+        <h2 class="mb-4 mt-5 ">Mis Habilidades</h2>
+
+        <div class="row justify-content-center mt-1">
+            <!-- Grupo 1 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <!-- Reemplaza "tu-svg-1.svg" con la ruta de tu primer SVG -->
+                    <img src="/img/icons8-logotipo-de-java-coffee-cup.svg" alt="Tecnología 1" class="img-fluid"
+                        style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 85%">85%</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-python.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 85%">85%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-mysql.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%">70%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-power-bi.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 65%">65%</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-git.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 85%">85%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-flujo-tensor.svg" alt="Tecnología 1" class="img-fluid"
+                        style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%">70%</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-jupyter.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 90%">90%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-pandas.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 80%">80%</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-engordado.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 80%">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-chatear.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 80%">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/apache_spark-ar21.svg" alt="Tecnología 1" class="img-fluid"
+                        style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%">70%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grupo 2 -->
+            <div class="col-lg-2 col-md-4 col-sm-5 mb-4">
+                <div class="card custom-bg-color2 text-white text-center p-2 position-relative">
+                    <img src="/img/icons8-oreja.svg" alt="Tecnología 1" class="img-fluid" style="max-height: 60px;">
+                    <div class="progress  progress-bar-success mt-2" role="progressbar" aria-label="Example with label"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 80%">80%</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer mt-5 ">
+        <div class="container text-center ">
+            <h5>Información de Contacto</h5>
+            <br>
+            <p>Teléfono: 55 7008 4709</p>
+            <p>Email: brandon.ali.camacho.s@gmail.com</p>
+            <hr>
+            <p class="text-center">Brandon Ali Camacho Sandoval &copy; 2024</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function mostrarGif(element) {
+            var gifSrc = element.getAttribute('data-gif-src');
+            document.getElementById('gif-img').setAttribute('src', gifSrc);
+            document.getElementById('gif-container').style.display = 'block';
+        }
+
+        function ocultarGif() {
+            document.getElementById('gif-container').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
